@@ -17,20 +17,20 @@ A modern full-stack web application that displays a list of items fetched from a
 The project is organized into two main directories:
 
 ```
-├── backend/            # Express.js API server
-│   ├── src/            # TypeScript source files
-│   │   ├── index.ts    # Main server file
-│   │   └── supabase.ts # Supabase client configuration
-│   ├── package.json    # Backend dependencies
-│   └── tsconfig.json   # TypeScript configuration
+├── backend/            
+│   ├── src/            
+│   │   ├── index.ts    
+│   │   └── supabase.ts 
+│   ├── package.json    
+│   └── tsconfig.json  
 │
-└── frontend/           # Next.js application
-    ├── src/            # Frontend source files
-    │   ├── app/        # Next.js App Router
-    │   │   ├── page.tsx    # Main page component
-    │   │   └── layout.tsx  # Root layout component
+└── frontend/          
+    ├── src/            
+    │   ├── app/        
+    │   │   ├── page.tsx    
+    │   │   └── layout.tsx  
     │   └── ...
-    └── package.json    # Frontend dependencies
+    └── package.json   
 ```
 
 ## ✨ Features
